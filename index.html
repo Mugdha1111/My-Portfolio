@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2b54c9e3a1.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div id="header">
+     <div class="container">
+  <nav>
+        <!-- <img src="initiall.jpg" alt="" class="logo"> -->
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <!-- <div class="hi">
+            <i class="fas fa-times"></i>
+          </div>  -->
+        </ul>
+        <div class="hi">
+          <i class="fas fa-bars" onclick="closemenu()"></i>
+        </div>
+        
+      </nav>
+
+       <div class="maincon">
+      <div class="header-text">
+        <p>Frontend Developer</p>
+        <h1>Hi, I am <br><span>Mugdha</span> from <br>Pune</h1>
+      </div>
+
+      <div class="header-img">
+        <img src="initiall.jpg" alt="">
+      </div>
+    </div>
+     </div>
+  </div>
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="Mugdha.jpeg" alt="">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, quasi officia aperiam adipisci nihil quod dolorem impedit labore, est, id porro aliquam vitae illum sed error dolores voluptatem nemo excepturi.</p>
+
+
+
+          <div class="tab-titles">
+            <div class="tab-links active" onclick="opentab('skills')">Skills</div>
+            <div class="tab-links" onclick="opentab('Education')">Education</div>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI</span><br>Building user interface</li>
+              <li><span>Web development</span><br>Design Websites</li>
+              <li><span>ReactJs</span><br>Modern framework in Website development</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Education">
+            <ul>
+              <li><span>Bsc(Computer Science)</span><br>Sinhgad College of Science<br>9.07 cgpa</li>
+              <li><span>XII(HSC)</span><br>Asian Jr College of Science<br>63.23%</li>
+              <li><span>X(SSC)</span><br>Pride English School<br>88%</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+         <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web development</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, excepturi nemo perferendis laboriosam at ipsum corrupti enim, assumenda, voluptate aspernatur repellat placeat eaque illum recusandae. Harum labore perspiciatis pariatur similique.</p>
+          <a href="#">Learn More</a>
+         </div>
+
+         <div>
+          <i class="fa-solid fa-crop-simple"></i>
+          <h2>UI UX</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, excepturi nemo perferendis laboriosam at ipsum corrupti enim, assumenda, voluptate aspernatur repellat placeat eaque illum recusandae. Harum labore perspiciatis pariatur similique.</p>
+          <a href="#">Learn More</a>
+         </div>
+
+         <div>
+          <i class="fa-solid fa-display"></i>
+          <h2>Frontend</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, excepturi nemo perferendis laboriosam at ipsum corrupti enim, assumenda, voluptate aspernatur repellat placeat eaque illum recusandae. Harum labore perspiciatis pariatur similique.</p>
+          <a href="#">Learn More</a>
+         </div>
+
+      </div>
+    </div>
+  </div>
+
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>deshmukhmugdha5@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>8806962713</p>
+        
+        <a href="RESUME.pdf" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html><div>
